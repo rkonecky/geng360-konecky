@@ -6,7 +6,8 @@
 
 #include <Arduino.h>
 
-const unsigned long SAMPLE_PERIOD = 500;  // Sample period in milliseconds, you can adjust this value.
+const unsigned long SAMPLE_PERIOD = 6;  // Sample period in milliseconds, you can adjust this value.
+
 
 unsigned long previousMillis = 0;  // Stores the last sampling time
 bool firstSample = true;          // Flag for first sample
@@ -55,4 +56,5 @@ void loop() {
 
   }
 
+  
 }

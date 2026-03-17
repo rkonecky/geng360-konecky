@@ -21,7 +21,7 @@ Run this file by pushing the triangular play button in the top right of the file
 
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
-import serial
+import serial 
 import serial.tools.list_ports
 import time
 import csv
