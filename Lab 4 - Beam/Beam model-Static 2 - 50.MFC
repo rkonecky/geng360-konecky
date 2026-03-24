@@ -1,0 +1,16 @@
+[StartTime]
+Beam model-Static 2 - 50.MFC=1s
+[SolverState]
+Beam model-Static 2 - 50.MFC=2
+[MainFrame]
+Beam model-Static 2 - 50.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPOPFAAAAAOEDAAAAACAJAAAAACCFAAAAA
+[ShowMin]
+Beam model-Static 2 - 50.MFC=No
+[SolverType]
+Beam model-Static 2 - 50.MFC=Linear Analysis
+[StudyType]
+Beam model-Static 2 - 50.MFC=0
+[StudyName]
+Beam model-Static 2 - 50.MFC=Static 2 - 50
+[Solver]
+Beam model-Static 2 - 50.MFC=Sparse

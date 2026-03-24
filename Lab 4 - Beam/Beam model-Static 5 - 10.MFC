@@ -1,0 +1,16 @@
+[StartTime]
+Beam model-Static 5 - 10.MFC=1s
+[SolverState]
+Beam model-Static 5 - 10.MFC=2
+[MainFrame]
+Beam model-Static 5 - 10.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPOPFAAAAAOEDAAAAACAJAAAAACCFAAAAA
+[ShowMin]
+Beam model-Static 5 - 10.MFC=No
+[SolverType]
+Beam model-Static 5 - 10.MFC=Linear Analysis
+[StudyType]
+Beam model-Static 5 - 10.MFC=0
+[StudyName]
+Beam model-Static 5 - 10.MFC=Static 5 - 10
+[Solver]
+Beam model-Static 5 - 10.MFC=Sparse

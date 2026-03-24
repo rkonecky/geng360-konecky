@@ -1,0 +1,16 @@
+[StartTime]
+Beam model-Frequency 1.MFC=
+[SolverState]
+Beam model-Frequency 1.MFC=2
+[MainFrame]
+Beam model-Frequency 1.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPOPFAAAAAOEDAAAAACAJAAAAACCFAAAAA
+[ShowMin]
+Beam model-Frequency 1.MFC=yes
+[SolverType]
+Beam model-Frequency 1.MFC=Linear Analysis
+[StudyType]
+Beam model-Frequency 1.MFC=-1
+[StudyName]
+[Solver]
+Beam model-Frequency 1.MFC=Iterative
+[StudyName1]
