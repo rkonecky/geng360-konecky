@@ -1,5 +1,5 @@
 [StartTime]
-Beam model-Static 4 - 20.MFC=2s
+Beam model-Static 4 - 20.MFC=1s
 [SolverState]
 Beam model-Static 4 - 20.MFC=2
 [MainFrame]
