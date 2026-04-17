@@ -38,6 +38,8 @@ float loadvoltage = 0;
 float power_mW = 0;
 float tempC = 0;
 
+unsigned long startTime = 0;
+
 void setup(){
   //Serial Setup
   Serial.begin(115200); // Note the highest recommended serial baud rate for stability is 115200. 
@@ -57,6 +59,9 @@ void setup(){
   // Start up the dallas temperature library
   sensors.begin();
 
+  // Initialize startTime
+  startTime = millis();
+  digitalWrite(heater_pin, LOW);
 }
 
 void loop() {
@@ -91,33 +96,36 @@ void loop() {
     power_mW = ina219.getPower_mW();
     loadvoltage = busvoltage + (shuntvoltage / 1000);
 
-    // Print out the data
-    Serial.print(currentMillis);
-    Serial.print(",");
-    Serial.print(validTemperature ? tempC : -999); // Use -999 to indicate invalid temperature
-    Serial.print(",");
-    Serial.print(shuntvoltage);
-    Serial.print(",");
-    Serial.print(busvoltage);
-    Serial.print(",");
-    Serial.print(current_mA);
-    Serial.print(",");
-    Serial.print(power_mW);
-    Serial.print(",");
-    Serial.println(loadvoltage);
-
-    // Heater control logic only if the temperature is valid
-    if (validTemperature) {
-
-      // Complete this heater control control logic
-
-      if () { 
-
-      } 
-      else if () { 
-        
-
+      // Print out the data
+      Serial.print(currentMillis);
+      Serial.print(",");
+      Serial.print(validTemperature ? tempC : -999); // Use -999 to indicate invalid temperature
+      Serial.print(",");
+      Serial.print(shuntvoltage);
+      Serial.print(",");
+      Serial.print(busvoltage);
+      Serial.print(",");
+      Serial.print(current_mA);
+      Serial.print(",");
+      Serial.print(power_mW);
+      Serial.print(",");
+      Serial.println(loadvoltage);
+  
+      // Heater control logic only if the temperature is valid
+      if (validTemperature) {
+  
+        // Complete this heater control control logic
+  
+         { // Bang-bang control with hysteresis
+          if (tempC < 31.0) {
+            digitalWrite(heater_pin, HIGH);  // Turn heater ON
+            //Serial.println("Temperature below 38.0°C. Heater ON.");
+          } else if (tempC > 33.0) {
+            //Serial.println("Temperature above 42.0°C. Heater OFF.");
+            digitalWrite(heater_pin, LOW);  // Turn heater OFF
+            
+          }
+        }
       }
-    }
   }
 }

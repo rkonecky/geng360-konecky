@@ -1,0 +1,13 @@
+Time (ms), Temperature (C), Shunt Voltage, Bus Voltage (V), Current (mA), Power (mW), Load Voltage (V)
+500,25.44,0.01,3.99,-0.20,0.00,3.99
+Temperature below 38.0°C. Heater ON.
+1000,25.44,180.95,0.06,1809.10,124.00,0.24
+Temperature below 38.0°C. Heater ON.
+1500,25.44,183.28,0.07,1832.00,124.00,0.25
+Temperature below 38.0°C. Heater ON.
+2000,25.44,181.78,0.07,1817.80,124.00,0.25
+Temperature below 38.0°C. Heater ON.
+2500,25.44,181.67,0.06,1816.40,124.00,0.25
+Temperature below 38.0°C. Heater ON.
+3000,25.44,182.36,0.07,1825.60,124.00,0.25
+Temperature below 38.0°C. Heater ON.
